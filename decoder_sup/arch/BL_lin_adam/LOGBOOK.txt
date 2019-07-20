@@ -1,0 +1,7 @@
+
+[500] train_recon_loss:49.089, test_recon_loss:48.750
+[1000] train_recon_loss:40.629, test_recon_loss:41.043
+[1500] train_recon_loss:37.187, test_recon_loss:36.242
+[2000] train_recon_loss:33.679, test_recon_loss:33.914
+[2500] train_recon_loss:32.966, test_recon_loss:32.096
+python main_mod.py --train True --ckpt_name None --testing_method supervised_decoder     --encoder B --decoder BL --sbd False --encoder_target_type depth_black_white_xy_xy --n_filter 32 --n_rep 4     --optim_type Adam --batch_size 100 --lr 5e-4 --beta 0     --max_epoch 80 --gather_step 500 --display_step 50 --save_step 2500 

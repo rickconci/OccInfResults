@@ -1,0 +1,8 @@
+
+[500] train_recon_loss:85.246, test_recon_loss:83.852
+[1000] train_recon_loss:82.986, test_recon_loss:83.740
+[1500] train_recon_loss:84.985, test_recon_loss:83.591
+[2000] train_recon_loss:82.782, test_recon_loss:83.503
+[500] train_recon_loss:49.095, test_recon_loss:48.760
+[1000] train_recon_loss:40.585, test_recon_loss:41.026
+[1500] train_recon_loss:37.161, test_recon_loss:36.247

@@ -1,0 +1,29 @@
+
+python main_mod.py --train True --ckpt_name None --testing_method supervised_decoder     --encoder B --decoder B --sbd False --encoder_target_type depth_black_white_xy_xy --n_filter 32 --n_rep 4     --optim_type SGD --batch_size 100 --lr 1e-2 --beta 0     --max_epoch 50 --gather_step 200 --display_step 50 --save_step 1000 
+
+python main_mod.py --train True --ckpt_name None --testing_method supervised_decoder     --encoder B --decoder B --sbd False --encoder_target_type depth_black_white_xy_xy --n_filter 32 --n_rep 4     --optim_type SGD --batch_size 100 --lr 1e-2 --beta 0     --max_epoch 50 --gather_step 200 --display_step 50 --save_step 1000 
+
+python main_mod.py --train True --ckpt_name None --testing_method supervised_decoder     --encoder B --decoder B --sbd False --encoder_target_type depth_black_white_xy_xy --n_filter 32 --n_rep 4     --optim_type SGD --batch_size 100 --lr 1e-2 --beta 0     --max_epoch 50 --gather_step 200 --display_step 50 --save_step 1000 
+
+python main_mod.py --train True --ckpt_name None --testing_method supervised_decoder     --encoder B --decoder B --sbd False --encoder_target_type depth_black_white_xy_xy --n_filter 32 --n_rep 4     --optim_type SGD --batch_size 100 --lr 1e-2 --beta 0     --max_epoch 50 --gather_step 200 --display_step 50 --save_step 1000 
+
+[200] train_recon_loss:60.593, test_recon_loss:60.977
+[400] train_recon_loss:43.720, test_recon_loss:41.853
+[600] train_recon_loss:31.286, test_recon_loss:31.153
+[800] train_recon_loss:30.177, test_recon_loss:29.768
+[1000] train_recon_loss:28.032, test_recon_loss:27.939
+[1200] train_recon_loss:25.923, test_recon_loss:26.196
+[1400] train_recon_loss:24.089, test_recon_loss:24.462
+[1600] train_recon_loss:22.620, test_recon_loss:23.232
+[1800] train_recon_loss:22.976, test_recon_loss:23.599
+[2000] train_recon_loss:23.151, test_recon_loss:23.299
+[2200] train_recon_loss:22.398, test_recon_loss:22.338
+[2400] train_recon_loss:21.625, test_recon_loss:21.742
+[2600] train_recon_loss:20.710, test_recon_loss:20.710
+[2800] train_recon_loss:20.170, test_recon_loss:20.509
+[3000] train_recon_loss:19.990, test_recon_loss:20.187
+[3200] train_recon_loss:20.350, test_recon_loss:20.180
+[3400] train_recon_loss:19.849, test_recon_loss:20.720
+[3600] train_recon_loss:19.694, test_recon_loss:19.638
+[3800] train_recon_loss:19.055, test_recon_loss:19.194
+[4000] train_recon_loss:19.590, test_recon_loss:19.604
